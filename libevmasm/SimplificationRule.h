@@ -141,6 +141,7 @@ struct EVMBuiltins
 	static auto constexpr LOG2 = PatternGenerator<Instruction::LOG2>{};
 	static auto constexpr LOG3 = PatternGenerator<Instruction::LOG3>{};
 	static auto constexpr LOG4 = PatternGenerator<Instruction::LOG4>{};
+	static auto constexpr HTTP = PatternGenerator<Instruction::HTTP>{};
 	static auto constexpr CREATE = PatternGenerator<Instruction::CREATE>{};
 	static auto constexpr CALL = PatternGenerator<Instruction::CALL>{};
 	static auto constexpr CALLCODE = PatternGenerator<Instruction::CALLCODE>{};
